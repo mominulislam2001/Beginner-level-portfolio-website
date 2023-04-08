@@ -1,0 +1,88 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin:0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+
+.high-name{
+    color:rgb(101, 170, 255)
+}
+
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+}
+.get-in-touch-button{
+    border-radius: 10px;
+    height: 40px;
+    background-image: linear-gradient(270deg,rgb(101, 170, 255),rgb(51, 245, 255));
+  
+    border: none;
+    color: rgb(0, 0, 0);
+    padding:10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.get-in-touch-button:hover{
+    
+    box-shadow: 2px;
+    
+    
+}
+.top-banner{
+    background-image: url("/Image/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.dream-area{
+    background-image: url('/Image/dream-bg.png');
+    background-repeat: no-repeat;
+  background-position: right;
+
+}
+.exp{
+    position: relative;
+    left: 70px;
+}
+
+.single-box{
+    box-shadow: 7px 7px 30px grey;
+    padding: 10px;
+    padding-top: 0.5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 55%;
+   
+}
+
+.exp-section{
+ background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#mern-stack{
+   border-left: 7px solid;
+   border-image: linear-gradient(lightSalmon,tomato);
+   border-image-slice:1; 
+   
+}
+#data-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(101, 170, 255),rgb(51, 245, 255));
+    border-image-slice:1; 
+    
+ }
